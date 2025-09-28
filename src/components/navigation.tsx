@@ -116,11 +116,14 @@ export function Navigation() {
             <div className="md:hidden flex items-center gap-4">
               <button
                 onClick={() =>
-                  changeLanguage(pathname.includes("/id/") ? "en" : "id")
+                  changeLanguage(pathname.includes("/id") ? "en" : "id")
                 }
-                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800"
+                className="p-2 flex gap-2 rounded-lg bg-gray-100 dark:bg-gray-800"
               >
                 <Languages size={20} />
+                <span className="text-sm font-medium">
+                  {pathname.includes("/id") ? "ID" : "EN"}
+                </span>
               </button>
               <button
                 onClick={toggleTheme}
