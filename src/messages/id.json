@@ -1,0 +1,169 @@
+{
+  "Navigation": {
+    "about": "Tentang",
+    "projects": "Proyek",
+    "experience": "Pengalaman",
+    "contact": "Kontak",
+    "downloadCV": "Unduh CV",
+    "toggleTheme": "Ubah tema",
+    "changeLanguage": "Ubah bahasa",
+    "translate": "Ubah ke Bahasa Inggris"
+  },
+  "Hero": {
+    "title": "Muhammad Fadhlan Aziz",
+    "subtitle": "Fullstack Web Developer",
+    "taglines": [
+      "Mengubah Ide Menjadi Solusi Digital yang Scalable",
+      "Partner Anda dalam Transformasi Digital",
+      "Membangun Web dengan Teknologi Modern",
+      "Kreatif. Modern. Scalable."
+    ],
+    "contactMe": "Hubungi Saya",
+    "downloadCV": "Unduh CV",
+    "location": "Bogor, Jawa Barat"
+  },
+  "About": {
+    "title": "Tentang Saya",
+    "description1": "Lulusan Fresh Graduate Informatika dengan dasar kuat dalam pengembangan web dan rekayasa perangkat lunak. Terampil dalam React.js, Next.js, Golang, dan Express.js.",
+    "description2": "Berpengalaman dalam membangun aplikasi yang scalable, mengintegrasikan API, dan menulis unit test. Adaptif, kolaboratif, dan bersemangat untuk berkembang di lingkungan pengembangan perangkat lunak yang cepat.",
+    "languagesFrameworks": "Bahasa & Framework",
+    "databaseTools": "Database & Tools",
+    "uiuxTesting": "UI/UX & Testing"
+  },
+  "Projects": {
+    "title": "Proyek Unggulan",
+    "technologiesUsed": "Teknologi yang Digunakan",
+    "keyContributions": "Kontribusi Utama",
+    "liveDemo": "Demo Langsung",
+    "sourceCode": "Kode Sumber",
+    "list": [
+      {
+        "title": "SINOW (Aplikasi MOOC)",
+        "description": "Pusat pembelajaran online yang dirancang untuk membuat pendidikan lebih mudah diakses dan bermanfaat.",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Express.js",
+          "PostgreSQL",
+          "Sequelize"
+        ],
+        "contributions": [
+          "Merancang dan mengimplementasikan skema database untuk mendukung manajemen kursus dan sertifikasi.",
+          "Mengembangkan backend API menggunakan Express.js dengan Sequelize untuk pengelolaan data.",
+          "Mengintegrasikan payment gateway Midtrans untuk transaksi online yang aman.",
+          "Membangun antarmuka frontend yang responsif dan ramah pengguna menggunakan Next.js dan Tailwind CSS."
+        ],
+        "images": [
+          "/images/sinow-1.png",
+          "/images/sinow-2.png",
+          "/images/sinow-3.png",
+          "/images/sinow-4.png",
+          "/images/sinow-5.png"
+        ],
+        "demoLink": "#",
+        "githubLink": "https://github.com/Fadhlan54/SINOW-mooc-app"
+      },
+      {
+        "title": "Marshall",
+        "description": "Platform pembelajaran berbasis AI yang secara otomatis menghasilkan modul interaktif, video pembelajaran, dan materi audio.",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Python",
+          "Golang",
+          "Redis"
+        ],
+        "contributions": [
+          "Membangun antarmuka frontend responsif menggunakan Next.js.",
+          "Mengimplementasikan autentikasi JWT dan manajemen state Redux untuk sesi pengguna yang aman.",
+          "Mengembangkan dashboard visualisasi data menggunakan Chart.js.",
+          "Membuat editor teks kustom untuk merancang dan mengedit modul pembelajaran dalam bentuk PPT."
+        ],
+        "images": [
+          "/images/marshall-1.png",
+          "/images/marshall-2.png",
+          "/images/marshall-3.png",
+          "/images/marshall-4.png",
+          "/images/marshall-5.png",
+          "/images/marshall-6.png",
+          "/images/marshall-7.png",
+          "/images/marshall-8.png",
+          "/images/marshall-9.png"
+        ],
+        "demoLink": "https://marshall-teach.web.id",
+        "githubLink": "https://github.com/Fadhlan54/telkom-marshall"
+      },
+      {
+        "title": "Ikobana Frozen Food",
+        "description": "Platform e-commerce untuk UMKM dengan integrasi pembayaran dan sistem pengiriman khusus untuk pesanan dalam jumlah besar.",
+        "technologies": ["Next.js", "Golang", "Redis", "PostgreSQL"],
+        "contributions": [
+          "Merancang dan mengimplementasikan skema database untuk manajemen pesanan dan produk.",
+          "Mengembangkan backend API menggunakan Golang dengan Fiber dan GORM.",
+          "Mengintegrasikan payment gateway dan sistem kurir khusus menggunakan API RajaOngkir.",
+          "Mengimplementasikan caching Redis untuk mengoptimalkan performa."
+        ],
+        "images": [
+          "/images/ikobana-1.png",
+          "/images/ikobana-2.png",
+          "/images/ikobana-3.png",
+          "/images/ikobana-4.png",
+          "/images/ikobana-5.png",
+          "/images/ikobana-6.png",
+          "/images/ikobana-7.png",
+          "/images/ikobana-8.png"
+        ],
+        "demoLink": "https://ikobanafrozenfood.vercel.app/",
+        "githubLink": "https://github.com/Fadhlan54/ikobana-frontend"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Pengalaman Kerja",
+    "list": [
+      {
+        "title": "Frontend Developer (Paruh Waktu)",
+        "company": "PT Telkom Indonesia (Persero) Tbk",
+        "period": "Jan – Mar 2025",
+        "location": "Bandung, Jawa Barat (Jarak Jauh)",
+        "achievements": [
+          "Mengembangkan unit test (80% coverage) dengan Jest & React Testing Library",
+          "Mengintegrasikan pipeline GitLab CI untuk testing otomatis",
+          "Mengimplementasikan fungsionalitas filtering dalam modul microservice"
+        ]
+      },
+      {
+        "title": "Frontend Developer (Magang)",
+        "company": "PT Telkom Indonesia (Persero) Tbk",
+        "period": "Sep – Des 2024",
+        "location": "Bandung, Jawa Barat",
+        "achievements": [
+          "Membangun halaman responsif untuk platform MARSHALL menggunakan Next.js",
+          "Mengimplementasikan penanganan token JWT & manajemen state Redux",
+          "Meningkatkan SEO melalui optimasi metadata"
+        ]
+      },
+      {
+        "title": "Fullstack Developer (Magang)",
+        "company": "PT Pertagas Niaga",
+        "period": "Jul – Agu 2024",
+        "location": "Jakarta Selatan, DKI Jakarta",
+        "achievements": [
+          "Mendesain flowchart dan prototipe UI di Figma untuk proses Cash In Advance",
+          "Mengembangkan fitur disposisi menggunakan Laravel & Blade",
+          "Membuat ERD untuk mendukung desain dan implementasi sistem"
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Hubungi Saya",
+    "description": "Saya terbuka untuk mendiskusikan peluang baru dan proyek yang menarik. Mari ciptakan sesuatu yang menakjubkan bersama!",
+    "sendMessage": "Kirim Pesan",
+    "location": "Bogor, Jawa Barat"
+  },
+  "Footer": {
+    "copyright": "© 2025 Muhammad Fadhlan Aziz. Hak cipta dilindungi.",
+    "builtWith": "Dibangun dengan Next.js, Tailwind CSS, dan GSAP"
+  }
+}

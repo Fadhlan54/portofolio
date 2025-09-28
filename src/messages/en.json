@@ -1,0 +1,169 @@
+{
+  "Navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "downloadCV": "Download CV",
+    "toggleTheme": "Toggle theme",
+    "changeLanguage": "Change language",
+    "translate": "Switch to Bahasa"
+  },
+  "Hero": {
+    "title": "Muhammad Fadhlan Aziz",
+    "subtitle": "Fullstack Web Developer",
+    "taglines": [
+      "Transforming Ideas into Scalable Digital Solutions",
+      "Your Partner in Digital Transformation",
+      "Architecting the Web with Modern Technologies",
+      "Creative. Mordern. Scalable."
+    ],
+    "contactMe": "Contact Me",
+    "downloadCV": "Download CV",
+    "location": "Bogor, West Java"
+  },
+  "About": {
+    "title": "About Me",
+    "description1": "Fresh Graduate in Informatics with strong foundation in web development and software engineering. Skilled in React.js, Next.js, Golang, and Express.js.",
+    "description2": "Experienced in building scalable applications, integrating APIs, and writing unit tests. Adaptable, collaborative, and eager to grow in fast-paced software development environments.",
+    "languagesFrameworks": "Languages & Frameworks",
+    "databaseTools": "Database & Tools",
+    "uiuxTesting": "UI/UX & Testing"
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "technologiesUsed": "Technologies Used",
+    "keyContributions": "Key Contributions",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "list": [
+      {
+        "title": "SINOW (MOOC App)",
+        "description": "An online learning hub designed to make education accessible and rewarding.",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Express.js",
+          "PostgreSQL",
+          "Sequelize"
+        ],
+        "contributions": [
+          "Designed and implemented the database schema to support course management and certification.",
+          "Developed the backend API using Express.js with Sequelize for data handling.",
+          "Integrated Midtrans payment gateway for secure online transactions.",
+          "Built responsive and user-friendly frontend interfaces using Next.js and Tailwind CSS."
+        ],
+        "images": [
+          "/images/sinow-1.png",
+          "/images/sinow-2.png",
+          "/images/sinow-3.png",
+          "/images/sinow-4.png",
+          "/images/sinow-5.png"
+        ],
+        "demoLink": "#",
+        "githubLink": "https://github.com/Fadhlan54/SINOW-mooc-app"
+      },
+      {
+        "title": "Marshall",
+        "description": "AI-powered learning platform that automatically generates interactive modules, video lessons, and audio learning materials.",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Python",
+          "Golang",
+          "Redis"
+        ],
+        "contributions": [
+          "Built a responsive frontend interface using Next.js.",
+          "Implemented JWT authentication and Redux state management for secure user sessions.",
+          "Developed data visualization dashboards using Chart.js.",
+          "Created a custom text editor to design and edit PPT learning modules."
+        ],
+        "images": [
+          "/images/marshall-1.png",
+          "/images/marshall-2.png",
+          "/images/marshall-3.png",
+          "/images/marshall-4.png",
+          "/images/marshall-5.png",
+          "/images/marshall-6.png",
+          "/images/marshall-7.png",
+          "/images/marshall-8.png",
+          "/images/marshall-9.png"
+        ],
+        "demoLink": "https://marshall-teach.web.id",
+        "githubLink": "https://github.com/Fadhlan54/telkom-marshall"
+      },
+      {
+        "title": "Ikobana Frozen Food",
+        "description": "E-commerce platform for SMEs with payment integration and custom delivery system for bulk orders.",
+        "technologies": ["Next.js", "Golang", "Redis", "PostgreSQL"],
+        "contributions": [
+          "Designed and implemented database schema for order and product management.",
+          "Developed backend APIs using Golang with Fiber and GORM.",
+          "Integrated payment gateway and custom courier system using RajaOngkir API.",
+          "Implemented Redis caching to optimize performance."
+        ],
+        "images": [
+          "/images/ikobana-1.png",
+          "/images/ikobana-2.png",
+          "/images/ikobana-3.png",
+          "/images/ikobana-4.png",
+          "/images/ikobana-5.png",
+          "/images/ikobana-6.png",
+          "/images/ikobana-7.png",
+          "/images/ikobana-8.png"
+        ],
+        "demoLink": "https://ikobanafrozenfood.vercel.app/",
+        "githubLink": "https://github.com/Fadhlan54/ikobana-frontend"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Work Experience",
+    "list": [
+      {
+        "title": "Frontend Developer (Part-time)",
+        "company": "PT Telkom Indonesia (Persero) Tbk",
+        "period": "Jan – Mar 2025",
+        "location": "Bandung, West Java (Remote)",
+        "achievements": [
+          "Developed unit tests (80% coverage) with Jest & React Testing Library",
+          "Integrated GitLab CI pipeline for automated testing",
+          "Implemented filtering functionality in microservice module"
+        ]
+      },
+      {
+        "title": "Frontend Developer (Intern)",
+        "company": "PT Telkom Indonesia (Persero) Tbk",
+        "period": "Sep – Dec 2024",
+        "location": "Bandung, West Java",
+        "achievements": [
+          "Built responsive pages for MARSHALL platform using Next.js",
+          "Implemented JWT token handling & Redux state management",
+          "Improved SEO through metadata optimization"
+        ]
+      },
+      {
+        "title": "Fullstack Developer (Intern)",
+        "company": "PT Pertagas Niaga",
+        "period": "Jul – Aug 2024",
+        "location": "South Jakarta, Jakarta",
+        "achievements": [
+          "Designed flowcharts and UI prototypes in Figma for the Cash In Advance process",
+          "Developed disposition feature using Laravel & Blade",
+          "Created ERD to support system design and implementation"
+        ]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "description": "I'm always open to discussing new opportunities and interesting projects. Let's create something awesome together!",
+    "sendMessage": "Send Message",
+    "location": "Bogor, West Java"
+  },
+  "Footer": {
+    "copyright": "© 2025 Muhammad Fadhlan Aziz. All rights reserved.",
+    "builtWith": "Built with Next.js, Tailwind CSS, and GSAP"
+  }
+}
