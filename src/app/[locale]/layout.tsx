@@ -7,6 +7,8 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { StructuredData } from "@/components/structuredData";
+import { Analytics } from "@vercel/analytics/next";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -83,6 +85,7 @@ export default async function LocaleLayout({
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
           </ThemeProvider>
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
