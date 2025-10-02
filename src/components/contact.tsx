@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { Mail, MapPin, Github, Linkedin } from "lucide-react";
 import gsap from "gsap";
 import { useTranslations } from "next-intl";
+import SectionTitle from "./elements/sectionTitle";
 
 export function Contact() {
   const sectionRef = useRef(null);
@@ -38,25 +39,23 @@ export function Contact() {
     <section
       ref={sectionRef}
       id="contact"
-      className="py-20 px-4 sm:px-6 lg:px-8"
+      className="py-12 md:py-20 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h2
-          ref={titleRef}
-          className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4"
-        >
-          {t("title")}
-        </h2>
+        <SectionTitle>{t("title")}</SectionTitle>
 
         <p
           ref={contentRef}
-          className="text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto"
+          className="md:text-lg text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto"
         >
           {t("description")}
         </p>
 
-        <div ref={contentRef} className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="space-y-6">
+        <div
+          ref={contentRef}
+          className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12"
+        >
+          <div className="space-y-4 md:space-y-6">
             <a
               href="mailto:muhammadfadhlan0011@gmail.com"
               className="flex items-center justify-center gap-3 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -74,7 +73,7 @@ export function Contact() {
             </a>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-4 md:space-y-6">
             <a
               href="https://linkedin.com/in/muhammad-fadhlan-aziz"
               className="flex items-center justify-center gap-3 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -93,9 +92,9 @@ export function Contact() {
         <div ref={contentRef}>
           <a
             href="mailto:muhammadfadhlan0011@gmail.com"
-            className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors text-lg"
+            className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-3 rounded-lg hover:bg-primary-700 transition-colors md:text-lg"
           >
-            <Mail size={20} />
+            <Mail className="w-5 h-5 md:h-6 md:w-6" />
             {t("sendMessage")}
           </a>
         </div>

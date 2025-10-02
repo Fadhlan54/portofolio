@@ -19,6 +19,7 @@ import "swiper/css/autoplay";
 import "@/styles/swiper.css";
 
 import Image from "next/image";
+import SectionTitle from "./elements/sectionTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -93,14 +94,12 @@ export function Projects() {
     <section
       ref={sectionRef}
       id="projects"
-      className="py-20 px-4 sm:px-6 lg:px-8"
+      className="py-12 md:py-20 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
-          {t("title")}
-        </h2>
+        <SectionTitle>{t("title")}</SectionTitle>
 
-        <div className="space-y-16">
+        <div className="space-y-4 md:space-y-8">
           {projects.map((project, index) => (
             <div
               key={`project-${index}`}
@@ -110,7 +109,7 @@ export function Projects() {
               }`}
             >
               {/* Project Image Slider */}
-              <div className={`${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
+              <div className={`${index % 2 === 1 ? "lg:col-start-2" : ""} `}>
                 <div className="relative group">
                   <Swiper {...swiperConfig} className="project-swiper">
                     {project.images.map((image, i) => (

@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
+import SectionTitle from "./elements/sectionTitle";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,22 +80,17 @@ export function About() {
     <section
       ref={sectionRef}
       id="about"
-      className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900/50"
+      className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900/50"
     >
       <div className="max-w-6xl mx-auto">
-        <h2
-          ref={titleRef}
-          className="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12"
-        >
-          {t("title")}
-        </h2>
+        <SectionTitle>{t("title")}</SectionTitle>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
           <div ref={contentRef}>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 mb-6">
               {t("description1")}
             </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300">
+            <p className="text-base md:text-lg text-gray-600 dark:text-gray-300">
               {t("description2")}
             </p>
           </div>
@@ -109,7 +105,7 @@ export function About() {
                   {items.map((skill) => (
                     <span
                       key={skill}
-                      className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-sm text-gray-700 dark:text-gray-300"
+                      className="px-3 py-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full text-xs md:text-sm text-gray-700 dark:text-gray-300"
                     >
                       {skill}
                     </span>
