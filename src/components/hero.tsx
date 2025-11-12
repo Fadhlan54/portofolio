@@ -13,9 +13,9 @@ export function Hero() {
   const subtitleRef = useRef(null);
   const buttonRef = useRef(null);
   const t = useTranslations("Hero");
-  const taglines = t.raw("taglines");
+  const subtitles = t.raw("subtitles");
 
-  const { currentText, textRef } = useTypewriter(taglines, 60, 2000);
+  const { currentText, textRef } = useTypewriter(subtitles, 60, 2000);
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -86,17 +86,15 @@ export function Hero() {
           ref={subtitleRef}
           className="text-xl sm:text-2xl text-primary-600 dark:text-primary-400 mb-6"
         >
-          Fullstack Web Developer
+          <span className="align-middle">{currentText}</span>
+          <span className="ml-1 w-1 h-6 inline-block bg-primary-500 animate-pulse align-middle"></span>
         </div>
 
         <div className="text-center mb-6">
           <p
             ref={textRef}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto "
-          >
-            <span className="align-middle">{currentText}</span>
-            <span className="ml-1 w-1 h-6 inline-block bg-primary-500 animate-pulse align-middle"></span>
-          </p>
+          ></p>
         </div>
 
         <div

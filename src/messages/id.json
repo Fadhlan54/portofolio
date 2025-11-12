@@ -11,11 +11,10 @@
   },
   "Hero": {
     "title": "Muhammad Fadhlan Aziz",
-    "subtitle": "Fullstack Web Developer",
-    "taglines": [
-      "Mengubah ide menjadi produk digital",
-      "Membangun web modern yang simpel",
-      "Transformasi digital tanpa ribet"
+    "subtitles": [
+      "Fullstack Web Developer",
+      "Frontend Developer",
+      "Backend Developer"
     ],
     "contactMe": "Hubungi Saya",
     "downloadCV": "Unduh CV",
