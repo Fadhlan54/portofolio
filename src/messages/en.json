@@ -18,7 +18,7 @@
     ],
     "contactMe": "Contact Me",
     "downloadCV": "Download CV",
-    "location": "Bogor, West Java"
+    "location": "Bogor Regency, West Java"
   },
   "About": {
     "title": "About Me",
@@ -58,7 +58,7 @@
           "/images/sinow-4.png",
           "/images/sinow-5.png"
         ],
-        "demoLink": "#",
+        "demoLink": "https://sinow.vercel.app",
         "githubLink": "https://github.com/Fadhlan54/SINOW-mooc-app"
       },
       {

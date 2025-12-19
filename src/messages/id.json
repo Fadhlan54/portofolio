@@ -18,7 +18,7 @@
     ],
     "contactMe": "Hubungi Saya",
     "downloadCV": "Unduh CV",
-    "location": "Bogor, Jawa Barat"
+    "location": "Kab. Bogor, Jawa Barat"
   },
   "About": {
     "title": "Tentang Saya",
@@ -32,7 +32,7 @@
     "title": "Proyek",
     "technologiesUsed": "Teknologi yang Digunakan",
     "keyContributions": "Kontribusi Utama",
-    "liveDemo": "Demo Langsung",
+    "liveDemo": "Demo",
     "sourceCode": "Kode Sumber",
     "list": [
       {
@@ -58,7 +58,7 @@
           "/images/sinow-4.png",
           "/images/sinow-5.png"
         ],
-        "demoLink": "#",
+        "demoLink": "https://sinow.vercel.app",
         "githubLink": "https://github.com/Fadhlan54/SINOW-mooc-app"
       },
       {
